@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="Name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custom_name"
+        android:id="@+id/custom_phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="+91xxxxxxxxxx"/>
+
+</RelativeLayout>
